@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../MyLibrary/0.1/MyLibrary-0.1.module",
+    "group": "com.example.library",
+    "module": "MyLibrary",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MyLibrary-jvm-0.1.jar",
+          "url": "MyLibrary-jvm-0.1.jar",
+          "size": 37655,
+          "sha512": "04e83c89402db87b7797caea50ac98017654d20015d34bf556f678d9838454ce6bdf8510f725f76e5969c2a05bdb148783b13db5cb4426363806394417be9ae7",
+          "sha256": "49e0eff8477c6916f136fcc92ad55617def9890a044e8d9ee30f00a8421086c5",
+          "sha1": "5f2b000bc14e47ab6576542fccaba4157369171b",
+          "md5": "a816d50904f388a16df4cf16a3070c1a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20210307"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MyLibrary-jvm-0.1.jar",
+          "url": "MyLibrary-jvm-0.1.jar",
+          "size": 37655,
+          "sha512": "04e83c89402db87b7797caea50ac98017654d20015d34bf556f678d9838454ce6bdf8510f725f76e5969c2a05bdb148783b13db5cb4426363806394417be9ae7",
+          "sha256": "49e0eff8477c6916f136fcc92ad55617def9890a044e8d9ee30f00a8421086c5",
+          "sha1": "5f2b000bc14e47ab6576542fccaba4157369171b",
+          "md5": "a816d50904f388a16df4cf16a3070c1a"
+        }
+      ]
+    }
+  ]
+}
