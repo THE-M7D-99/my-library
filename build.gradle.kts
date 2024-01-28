@@ -38,7 +38,7 @@ afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("release") {
-                from(components["java"])
+                from(components["kotlin"])
                 groupId = "com.github.THE-M7D-99"
                 artifactId = "my-library"
                 version = "0.1"
